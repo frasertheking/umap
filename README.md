@@ -33,6 +33,11 @@ We have collected PIP microphysical data from a variety of measurement locations
 
 We have also built a custom API for interacting with the PIP data called **pipdb**. For information on how to use the API please see our [readthedocs documentation](https://pipdb.readthedocs.io/en/latest/).
 
+## Previous Work
+
+To see how we previously used PCA to identify modes of snowfall variaiblity, please see our associated [GitHub repository](https://github.com/frasertheking/snowfall_pca).
+
+
 ## Installation
 
 To experiment with your own data, please clone this repo and make a clean Conda environment with [scikit-learn](https://scikit-learn.org/stable/) installed. In order to use the interactive 3D plots, you'll also need the [plotly](https://plotly.com/) package installed.
