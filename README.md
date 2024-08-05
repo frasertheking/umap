@@ -41,18 +41,18 @@ To see how we previously used PCA to identify modes of snowfall variaiblity, ple
 
 ## Installation
 
-To experiment with your own data, please clone this repo and make a clean Conda environment with [scikit-learn](https://scikit-learn.org/stable/) installed. In order to use the interactive 3D plots, you'll also need the [plotly](https://plotly.com/) package installed.
+    git clone https://github.com/frasertheking/umap.git
+    conda env create -f env.yml
+    conda activate umap
 
 ## Examples
 
-We also provide an interactive Jupyter notebook to experiment with (and for reproducing our results) with a subsample of our full dataset. To view the notebook please click the following button:
+We also provide an interactive Google Colab environment to experiment with (and for reproducing our results), with a subsample of our full dataset. To view the notebook please click the following button:
 
-[BUTTON]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Ontz4-q7eD9bihrPsavVP9XZE91YmIb4?usp=sharing)
+
 
 You'll need to download an example subset of data [here](https://www.frasertheking.com/downloads/pip_snow_obs_10_sites_500_subsample.csv) in csv format, or provide your own.
-
-<!-- 
----
 
 ## Contributing
 
@@ -67,5 +67,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Derek Posselt, NASA Jet Propulsion Laboratory
 
 ## Funding
-This project was primarily funded by NASA New (Early Career) Investigator Program (NIP) grant at the [University of Michigan](https://umich.edu).
- -->
+This project was primarily funded by NASA New (Early Career) Investigator Program (NIP) grant at the [University of Michigan](https://umich.edu). The Natural Sciences and Engineering Research Council of Canada (NSERC) also provided funding via a PDF award.
