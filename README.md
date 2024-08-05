@@ -5,7 +5,6 @@
 Decoding Nonlinear Signals in Multidimensional Precipitation Observations, maintained by [Fraser King](https://frasertheking.com/)
 
 </div>
-___
 
 ## Overview
 
