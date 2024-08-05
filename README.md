@@ -8,17 +8,18 @@ Decoding Nonlinear Signals in Multidimensional Precipitation Observations, maint
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 </div>
+
+## Overview
+
+This is the public code repository for our research article currently submitted to [Nature Communications](https://www.nature.com/ncomms/).
+
+Changes in the phase of precipitation reaching the surface has far-reaching implications to agricultural productivity, fresh water availability, outdoor recreation economies, and ecosystem sustainability. In this study, we aimed to improve precipitation data analysis for weather prediction by examining over 1.5 million minute-scale particle measurements from seven sites over ten years. Using nonlinear dimensionality reduction techniques, we reduced the data complexity by 75% and identified nine unique precipitation groups. The nonlinear technique provided clearer separation than traditional linear methods, with fewer ambiguous cases and better categorization of important hydrometeor properties like precipitation phase and intensity. These findings enhance our understanding of global precipitation patterns by revealing hidden features in large, complex datasets.
+
+This repository contains the processing and analysis scripts used in the article, figure plotting code and an example interactive notebook for experimenting with some of the precipitation data yourself using similar techniques. The goal of this repository is to provide open access to other for reproducing our results, or adapting them for future work.
+![PCA](https://github.com/frasertheking/umap/blob/main/images/animated.gif?raw=true)
+
 <!-- 
 ---
-
-## Primary Modes of Northern Hemisphere Snowfall Particle Size Distributions
-
-This project is currently being written into a journal article for the [Journal of the Atmospheric Sciences](https://www.ametsoc.org/index.cfm/ams/publications/journals/journal-of-the-atmospheric-sciences/).
-
-Snowfall is a critical contributor to the global water-energy budget, with important connections to water resource management, flood mitigation, and ecosystem sustainability. This research enhances our understanding of varying snow particle size distributions in the Northern Hemisphere, offering valuable new insights for improving future remote sensing-based snowfall retrieval algorithms. Using a statistical technique called Principal Component Analysis, we found that 95\% of the variability in observed snowfall could be explained by three primary features: how intense the snowfall is, how dense the particles are, and the depth of the storm. We identified six unique snowfall groups, each with its own set of traits, such as the snow being light and fluffy, or heavy and packed. By linking these traits to external environmental observations, we can better understand the driving physical mechanisms within each group.
-
-This code repository holds the microphysical data extraction and processing scripts, the PCA code, plotting/visualization calls and ancillary analysis notebooks. With this repo, you should be able to reproduce our paper results, and easily adapt this methodology to your own projects.
-![PCA](https://github.com/frasertheking/snowfall_pca/blob/main/images/pca.png?raw=true)
 
 ## Data Sources
 
