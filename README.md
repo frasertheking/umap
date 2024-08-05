@@ -4,7 +4,6 @@
 
 Decoding Nonlinear Signals in Multidimensional Precipitation Observations, maintained by [Fraser King](https://frasertheking.com/)
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 </div>
@@ -15,13 +14,15 @@ This is the public code repository for our research article currently submitted 
 
 Changes in the phase of precipitation reaching the surface has far-reaching implications to agricultural productivity, fresh water availability, outdoor recreation economies, and ecosystem sustainability. In this study, we aimed to improve precipitation data analysis for weather prediction by examining over 1.5 million minute-scale particle measurements from seven sites over ten years. Using nonlinear dimensionality reduction techniques, we reduced the data complexity by 75% and identified nine unique precipitation groups. The nonlinear technique provided clearer separation than traditional linear methods, with fewer ambiguous cases and better categorization of important hydrometeor properties like precipitation phase and intensity. These findings enhance our understanding of global precipitation patterns by revealing hidden features in large, complex datasets.
 
+![overview](https://github.com/frasertheking/umap/blob/main/images/overview.gif?raw=true)
+
 This repository contains the processing and analysis scripts used in the article, figure plotting code and an example interactive notebook for experimenting with some of the precipitation data yourself using similar techniques. The goal of this repository is to provide open access to other for reproducing our results, or adapting them for future work.
 
 ## UMAP+HDBSCAN Manifold
 
 To play with the data yourself, please see our [interactive tool](https://frasertheking.com/interactive/). You can see an example of what the UMAP+HDBSCAN precipitation clusters look like in the animated image below.
 
-![PCA](https://github.com/frasertheking/umap/blob/main/images/animated.gif?raw=true)
+![animated](https://github.com/frasertheking/umap/blob/main/images/animated.gif?raw=true)
 
 ## Data Sources
 
