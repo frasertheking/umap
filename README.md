@@ -38,6 +38,7 @@ We have also built a custom API for interacting with the PIP data called **pipdb
 
 To see how we previously used PCA to identify modes of snowfall variaiblity, please see our associated [GitHub repository](https://github.com/frasertheking/snowfall_pca).
 
+![pca](https://github.com/frasertheking/umap/blob/main/images/pca.png?raw=true)
 
 ## Installation
 
