@@ -14,7 +14,7 @@ This is the public code repository for our research article currently submitted 
 
 Changes in the phase of precipitation reaching the surface has far-reaching implications to agricultural productivity, fresh water availability, outdoor recreation economies, and ecosystem sustainability. In this study, we aimed to improve precipitation data analysis for weather prediction by examining over 1.5 million minute-scale particle measurements from seven sites over ten years. Using nonlinear dimensionality reduction techniques, we reduced the data complexity by 75% and identified nine unique precipitation groups. The nonlinear technique provided clearer separation than traditional linear methods, with fewer ambiguous cases and better categorization of important hydrometeor properties like precipitation phase and intensity. These findings enhance our understanding of global precipitation patterns by revealing hidden features in large, complex datasets.
 
-![overview](https://github.com/frasertheking/umap/blob/main/images/overview.gif?raw=true)
+![overview](https://github.com/frasertheking/umap/blob/main/images/overview.png?raw=true)
 
 This repository contains the processing and analysis scripts used in the article, figure plotting code and an example interactive notebook for experimenting with some of the precipitation data yourself using similar techniques. The goal of this repository is to provide open access to other for reproducing our results, or adapting them for future work.
 
