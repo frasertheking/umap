@@ -31,19 +31,22 @@ The data for this project is hosted online on UM's [DeepBlue repository](https:/
 
 We have collected PIP microphysical data from a variety of measurement locations across the northern hemisphere. Data originally in a proprietary ASCII format has been converted to the more universally recognized NetCDF-4 format for ease of sharing and compatibility within the academic community. The conversion process, undertaken using a combination of bash and Python, ensures broader compatibility with various data analysis tools and platforms. A quality assurance (QA) procedure has been undertaken to ensure the integrity of the data. Post QA, the data is transformed into daily NetCDF-4 files following the Climate and Forecast (CF) conventions (version 1.10) and compressed with a level 2 deflation for optimized file size. Additional details into the data curation process can be found in our journal article publication.
 
-
-<!-- 
----
+We have also built a custom API for interacting with the PIP data called **pipdb**. For information on how to use the API please see our [readthedocs documentation](https://pipdb.readthedocs.io/en/latest/).
 
 ## Installation
 
-To perform your own training tests, you'll want to clone this repo, and create a Conda environment with scikit-learn installed. Note that plotly is required for the interactive 3D plots.
+To experiment with your own data, please clone this repo and make a clean Conda environment with [scikit-learn](https://scikit-learn.org/stable/) installed. In order to use the interactive 3D plots, you'll also need the [plotly](https://plotly.com/) package installed.
 
 ## Examples
 
-To interact with the processing scripts, please see the commented Python Jupyter notebooks in the /notebooks path of this repo.
+We also provide an interactive Jupyter notebook to experiment with (and for reproducing our results) with a subsample of our full dataset. To view the notebook please click the following button:
 
-A subset example dataset can also be downloaded [here](https://www.frasertheking.com/downloads/pip_snow_obs_10_sites_500_subsample.csv) in csv format.
+[BUTTON]
+
+You'll need to download an example subset of data [here](https://www.frasertheking.com/downloads/pip_snow_obs_10_sites_500_subsample.csv) in csv format, or provide your own.
+
+<!-- 
+---
 
 ## Contributing
 
