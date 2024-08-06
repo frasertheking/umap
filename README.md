@@ -4,6 +4,8 @@
 
 Decoding Nonlinear Signals in Multidimensional Precipitation Observations, maintained by [Fraser King](https://frasertheking.com/)
 
+![logos](https://github.com/frasertheking/umap/blob/main/images/logos.png?raw=true)
+
 </div>
 
 ## Overview
@@ -49,9 +51,6 @@ To see how we previously used PCA to identify modes of snowfall variaiblity, ple
 We also provide an interactive Google Colab environment to experiment with (and for reproducing our results), with a subsample of our full dataset. To view the notebook please click the following button:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bESVTHSmwZEdv5MyZQIRvarMJIhmWOMF?usp=share_link)
-
-
-You'll need to download an example subset of data [here](https://www.frasertheking.com/downloads/pip_snow_obs_10_sites_500_subsample.csv) in csv format, or provide your own.
 
 ## Contributing
 
