@@ -4,8 +4,6 @@
 
 Decoding Nonlinear Signals in Multidimensional Precipitation Observations, maintained by [Fraser King](https://frasertheking.com/)
 
-![logos](https://github.com/frasertheking/umap/blob/main/images/logos.png?raw=true)
-
 </div>
 
 ## Overview
@@ -63,6 +61,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - Brenda Dolan, Colorado State University
 - Julia Shates, NASA Jet Propulsion Laboratory
 - Derek Posselt, NASA Jet Propulsion Laboratory
+
+![logos](https://github.com/frasertheking/umap/blob/main/images/logos.png?raw=true)
 
 ## Funding
 This project was primarily funded by NASA New (Early Career) Investigator Program (NIP) grant at the [University of Michigan](https://umich.edu). The Natural Sciences and Engineering Research Council of Canada (NSERC) also provided funding via a PDF award.
