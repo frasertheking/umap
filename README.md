@@ -48,7 +48,7 @@ To see how we previously used PCA to identify modes of snowfall variaiblity, ple
 
 We also provide an interactive Google Colab environment to experiment with (and for reproducing our results), with a subsample of our full dataset. To view the notebook please click the following button:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Ontz4-q7eD9bihrPsavVP9XZE91YmIb4?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bESVTHSmwZEdv5MyZQIRvarMJIhmWOMF?usp=share_link)
 
 
 You'll need to download an example subset of data [here](https://www.frasertheking.com/downloads/pip_snow_obs_10_sites_500_subsample.csv) in csv format, or provide your own.
