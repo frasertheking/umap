@@ -21,7 +21,7 @@ This repository contains the processing and analysis scripts used in the article
 To play with the data yourself, please see our [interactive tool](https://frasertheking.com/interactive/). You can see an example of what the UMAP+HDBSCAN precipitation clusters look like in the animated image below.
 
 <p align="center">
-![animated](https://github.com/frasertheking/umap/blob/main/images/animated.gif?raw=true)
+    <img src="https://github.com/frasertheking/umap/blob/main/images/animated.gif?raw=true" />
 </p>
 
 ## Data Sources
