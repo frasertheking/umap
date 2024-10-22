@@ -8,7 +8,7 @@ Decoding Nonlinear Signals in Multidimensional Precipitation Observations, maint
 
 ## Overview
 
-This is the public code repository for our research article currently submitted to [Nature Communications](https://www.nature.com/ncomms/).
+This is the public code repository for our research article.
 
 Changes in the phase of precipitation reaching the surface has far-reaching implications to agricultural productivity, fresh water availability, outdoor recreation economies, and ecosystem sustainability. In this study, we aimed to improve precipitation data analysis for weather prediction by examining over 1.5 million minute-scale particle measurements from seven sites over ten years. Using nonlinear dimensionality reduction techniques, we reduced the data complexity by 75% and identified nine unique precipitation groups. The nonlinear technique provided clearer separation than traditional linear methods, with fewer ambiguous cases and better categorization of important hydrometeor properties like precipitation phase and intensity. These findings enhance our understanding of global precipitation patterns by revealing hidden features in large, complex datasets.
 
