@@ -24,6 +24,53 @@ To play with the data yourself, please see our [interactive tool](https://fraser
     <img src="https://github.com/frasertheking/umap/blob/main/images/animated.gif?raw=true" />
 </p>
 
+## Lookup-Table Utilities (`lut_tools.py`)
+
+<div align="center">
+
+<img src="https://github.com/frasertheking/umap/blob/main/images/lut_map_demo.png?raw=true"
+     alt="Cluster lookup-table visualisation" width="80%" />
+
+</div>
+
+### What is this?
+
+The **UMAP + HDBSCAN** analysis in this repo collapses 1.5 million five-minute
+hydrometeor snapshots into **nine physically meaningful precipitation regimes**.
+We distilled those results into a *3-D* histogram with a 10-element probability 
+vector in every cell \\(P(\\text{cluster}\\;|\\;T,\\;\\log_{10}N_t)\\), 
+where each bin stores the probability of observing a given cluster at surface 
+temperature *T* and total particle concentration *N_t*.
+
+These probabilities are **valuable priors**:
+
+* **Bayesian retrievals** can make use of this prior using two simple atmospheric
+  variables to improve the predictive accuracy of the retrieved particle phase
+* **Numerical model parameterisations** can sample from the conditional
+  distribution to initialise microphysics schemes or to regularise forecasts
+
+### LUT Quick-start
+We have worked to make this easy to implement in other models:
+
+```bash
+pip install pandas numpy pyarrow matplotlib
+```
+
+```python
+from lut_tools import load_lookup_table, query_lookup, plot_lut_map
+
+# 1 Load the parquet LUT (defaults to ./umap_cluster_prior.parquet)
+lut = load_lookup_table()
+
+# 2 Query any (T, Nt) point – returns a Series summing to 1.0
+probs = query_lookup(lut, T=-2.0, Nt_log=3.0)
+print(probs.sort_values(ascending=False)[:3])
+# 0.45 → Heavy Snow  |  0.32 → Heavy Snow→Mixed  |  0.16 → Light Snow  …
+
+# 3 Visualise or regenerate the map
+plot_lut_map(lut, "lut_map_demo.png")
+```
+
 ## Data Sources
 
 A Comprehensive Northern Hemisphere Particle Microphysics Dataset from the Precipitation Imaging Package
