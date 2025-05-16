@@ -65,7 +65,7 @@ lut = load_lookup_table()
 # 2 Query any (T, Nt) point - returns a Series summing to 1.0
 probs = query_lookup(lut, T=-2.0, Nt_log=3.0)
 print(probs.sort_values(ascending=False)[:3])
-# 0.45 → Heavy Snow  |  0.32 → Heavy Snow-Mixed Phase  |  0.16 → Light Snow  ...
+# 0.85 → Light Mixed-Phase  |  0.13 → Drizzle  |  0.01 → Ambiguous  ...
 
 # 3 Visualise or regenerate the map
 plot_lut_map(lut, "lut_map_demo.png")
