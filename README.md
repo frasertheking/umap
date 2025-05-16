@@ -38,7 +38,7 @@ To play with the data yourself, please see our [interactive tool](https://fraser
 The **UMAP + HDBSCAN** analysis in this repo collapses 1.5 million five-minute
 hydrometeor snapshots into **nine physically meaningful precipitation regimes**.
 We distilled those results into a *3-D* histogram with a 10-element probability 
-vector in every cell \\(P(\\text{cluster}\\;|\\;T,\\;\\log_{10}N_t)\\), 
+vector in every cell $P(\text{cluster}\mid T,\log_{10} N_t)$, 
 where each bin stores the probability of observing a given cluster at surface 
 temperature *T* and total particle concentration *N_t*.
 
