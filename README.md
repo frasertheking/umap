@@ -28,7 +28,7 @@ To play with the data yourself, please see our [interactive tool](https://fraser
 
 <div align="center">
 
-<img src="https://github.com/frasertheking/umap/blob/main/images/lut_map_demo.png?raw=true"
+<img src="https://github.com/frasertheking/umap/blob/main/images/lut_map.png?raw=true"
      alt="Cluster lookup-table visualisation" width="80%" />
 
 </div>
@@ -50,7 +50,10 @@ These probabilities are **valuable priors**:
   distribution to initialise microphysics schemes or to regularise forecasts
 
 ### LUT Quick-start
-We have worked to make this easy to implement in other models:
+
+Download the generated lookup table from our _data_ folder (umap_cluster_prior.parquet ~ 43KB).
+
+Then, setup the env and import our utility functions or use our CLI to interact with the data.
 
 ```bash
 pip install pandas numpy pyarrow matplotlib
@@ -71,7 +74,7 @@ print(probs.sort_values(ascending=False)[:3])
 plot_lut_map(lut, "lut_map_demo.png")
 ```
 
-For more details, you can also view our LUT generation code in the lut subfolder.
+For more details, you can view _lut_tools.py_ in the scripts folder.
 
 ## Data Sources
 
