@@ -44,7 +44,7 @@ temperature *T* and total particle concentration *N_t*.
 
 These probabilities are **valuable priors**:
 
-* **Bayesian retrievals** can make use of this prior using two simple atmospheric
+* **Bayesian retrievals** can make use of this prior using two simple state
   variables to improve the predictive accuracy of the retrieved particle phase
 * **Numerical model parameterisations** can sample from the conditional
   distribution to initialise microphysics schemes or to regularise forecasts
